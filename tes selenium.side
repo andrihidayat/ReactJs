@@ -1,0 +1,154 @@
+{
+  "id": "8fe028c0-3c95-466c-9507-c4b07d226f03",
+  "version": "2.0",
+  "name": "tes selenium",
+  "url": "https://ali.asiacommerce.net",
+  "tests": [{
+    "id": "9dd6ae15-9d74-44bc-8a3f-02a44a98bb3d",
+    "name": "tes selenium",
+    "commands": [{
+      "id": "ba8e3477-85a6-4722-ab3b-3d4d6f87e527",
+      "comment": "",
+      "command": "open",
+      "target": "/catalog",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7060722b-2444-490d-ae3d-be1cf3826444",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1364x726",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7dbc154c-2525-401d-ba64-7293ba249f67",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sign",
+      "targets": [
+        ["css=.sign", "css:finder"],
+        ["xpath=//div[@id='main']/div[2]/div/div[2]/a/i", "xpath:idRelative"],
+        ["xpath=//div[2]/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "edff2fcf-8841-4f17-b223-46b66f9b8ed2",
+      "comment": "",
+      "command": "type",
+      "target": "css=.field:nth-child(1) input",
+      "targets": [
+        ["css=.field:nth-child(1) input", "css:finder"],
+        ["xpath=//input[@type='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "frans@asiacommerce.net"
+    }, {
+      "id": "2bad126a-c937-4bba-bafe-ee0a40bf93bf",
+      "comment": "",
+      "command": "type",
+      "target": "css=.field:nth-child(2) input",
+      "targets": [
+        ["css=.field:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@type='password']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "test1234"
+    }, {
+      "id": "c2e4f999-90c2-45a6-9af6-57369e3aa1c7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.field:nth-child(1) input",
+      "targets": [
+        ["css=.field:nth-child(1) input", "css:finder"],
+        ["xpath=//input[@type='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d1a8f0d-4bd7-4ab4-ab2c-b8f410f10c2e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.field:nth-child(1) input",
+      "targets": [
+        ["css=.field:nth-child(1) input", "css:finder"],
+        ["xpath=//input[@type='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "43133af2-fa77-4b6f-a671-2fa36836fd11",
+      "comment": "",
+      "command": "click",
+      "target": "css=.middle",
+      "targets": [
+        ["css=.middle", "css:finder"],
+        ["xpath=//div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f42820fc-fe59-40f0-afeb-e77226d960ed",
+      "comment": "",
+      "command": "click",
+      "target": "css=.field:nth-child(2) input",
+      "targets": [
+        ["css=.field:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@type='password']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3e6058f-3e13-4f77-a26c-9153618419a7",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div/div",
+      "targets": [
+        ["css=.middle", "css:finder"],
+        ["xpath=//div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "80a1cf2e-0251-454e-87b9-666470655fc5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fluid",
+      "targets": [
+        ["css=.fluid", "css:finder"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ff46778-39be-4de5-b0ef-16ea0f173d6d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.fluid",
+      "targets": [
+        ["css=.fluid", "css:finder"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae23ee02-f2e1-4287-86e7-f32f6ebcf10d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.fluid:nth-child(3)",
+      "targets": [
+        ["css=.fluid:nth-child(3)", "css:finder"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "8d1d4629-fc6d-44cf-88a3-7d7e50c4823f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["9dd6ae15-9d74-44bc-8a3f-02a44a98bb3d"]
+  }],
+  "urls": ["https://ali.asiacommerce.net/"],
+  "plugins": []
+}
